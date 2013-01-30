@@ -1,3 +1,8 @@
+#@author = "Aayush Agarwal"
+#Truth Table Creator
+#Only edit the "check" function
+#asks for num inputs when program is run
+
 def createRow(n,v):
     res = [0,0,0,0,0,0]
     s = bin(n)[2:]
