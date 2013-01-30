@@ -42,21 +42,6 @@ THIS SHOULD BE THE ONLY FUNCTION YOU TOUCH.
 The input is the row, which is a list of ints.
 """
 def check(r):
-    p0 = r[0]
-    p1 = r[1]
-    d0 = r[2]
-    p2 = r[3]
-    d1 = r[4]
-    d2 = r[5]
-    sum1 = p0 + d0 + d1
-    sum2 = p1 + d0 + d2
-    sum3 = p2 + d1 + d2
-    check1 = sum1 % 2
-    check2 = sum2 % 2
-    check3 = sum3 % 2
-    check = check1 + check2 + check3
-    if(check == 0):
-        return 0
     return 1
 
 def createTruthTable(a):
